@@ -5,7 +5,12 @@ export const books = [
     author: "Jane Smith",
     cover: "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=400&h=600&fit=crop",
     description: "An epic journey through uncharted lands.",
-    content: "Chapter 1: The Beginning\n\nIt was a bright cold day in April, and the clocks were striking thirteen. The adventure was about to begin...\n\nChapter 2: The Journey\n\nAs our hero set forth on their quest, little did they know what awaited them beyond the horizon..."
+    genre: "Adventure",
+    pages: 324,
+    year: 2022,
+    rating: 4.5,
+    fullDescription: "Join our hero on an unforgettable journey through mystical lands, ancient forests, and treacherous mountains. This epic tale of courage, friendship, and discovery will keep you turning pages late into the night. Perfect for fans of classic adventure stories with a modern twist.",
+    content: "Chapter 1: The Beginning\n\nIt was a bright cold day in April, and the clocks were striking thirteen. The adventure was about to begin...\n\nChapter 2: The Journey\n\nAs our hero set forth on their quest, little did they know what awaited them beyond the horizon...\n\nChapter 3: Trials and Tribulations\n\nThe path grew harder with each passing day, but determination fueled their steps forward into the unknown wilderness."
   },
   {
     id: 2,
@@ -13,7 +18,12 @@ export const books = [
     author: "Alex Johnson",
     cover: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=600&fit=crop",
     description: "A story of technology and humanity.",
-    content: "Chapter 1: The Awakening\n\nIn a world where dreams and reality merge, one programmer discovers the truth...\n\nChapter 2: The Code\n\nThe lines of code began to make sense, revealing secrets hidden in plain sight..."
+    genre: "Sci-Fi",
+    pages: 289,
+    year: 2023,
+    rating: 4.8,
+    fullDescription: "In a near-future world where the lines between digital and physical reality blur, one programmer's discovery could change everything. A thought-provoking exploration of consciousness, identity, and what it means to be human in an increasingly connected world.",
+    content: "Chapter 1: The Awakening\n\nIn a world where dreams and reality merge, one programmer discovers the truth...\n\nChapter 2: The Code\n\nThe lines of code began to make sense, revealing secrets hidden in plain sight...\n\nChapter 3: The Matrix of Truth\n\nAs the veil lifted, the true nature of their reality became impossible to ignore."
   },
   {
     id: 3,
@@ -21,6 +31,50 @@ export const books = [
     author: "Maria Garcia",
     cover: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=600&fit=crop",
     description: "Secrets beneath the waves.",
-    content: "Chapter 1: The Deep\n\nThe ocean held mysteries that few dared to explore...\n\nChapter 2: Discovery\n\nWhat they found would change everything they thought they knew about the world..."
+    genre: "Mystery",
+    pages: 412,
+    year: 2021,
+    rating: 4.3,
+    fullDescription: "Deep beneath the ocean's surface lies a secret that has remained hidden for centuries. When a team of marine biologists stumbles upon an impossible discovery, they must race against time to uncover the truth before it's lost forever. A gripping mystery that will leave you breathless.",
+    content: "Chapter 1: The Deep\n\nThe ocean held mysteries that few dared to explore...\n\nChapter 2: Discovery\n\nWhat they found would change everything they thought they knew about the world...\n\nChapter 3: The Abyss Calls\n\nDescending into the darkness, they realized the ocean was not ready to give up its secrets easily."
+  },
+  {
+    id: 4,
+    title: "Midnight Tales",
+    author: "Robert Chen",
+    cover: "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=600&fit=crop",
+    description: "Stories that come alive after dark.",
+    genre: "Horror",
+    pages: 267,
+    year: 2023,
+    rating: 4.6,
+    fullDescription: "A collection of spine-chilling tales that blur the line between reality and nightmare. Each story unfolds in the witching hours, when the world sleeps and darker forces awaken. Not for the faint of heart.",
+    content: "Chapter 1: The First Night\n\nWhen the clock strikes midnight, the stories begin to write themselves...\n\nChapter 2: Shadows and Whispers\n\nEvery creak, every shadow held a story waiting to be told in the darkness of night."
+  },
+  {
+    id: 5,
+    title: "Love in Bloom",
+    author: "Emma Williams",
+    cover: "https://images.unsplash.com/photo-1474552226712-ac0f0961a954?w=400&h=600&fit=crop",
+    description: "A heartwarming romance set in a small town.",
+    genre: "Romance",
+    pages: 301,
+    year: 2022,
+    rating: 4.7,
+    fullDescription: "When Sarah returns to her hometown to save her grandmother's flower shop, she never expected to find love blooming alongside the roses. A sweet, heartwarming romance about second chances, family, and following your heart.",
+    content: "Chapter 1: Coming Home\n\nThe scent of roses greeted her as she stepped through the familiar door...\n\nChapter 2: Unexpected Encounters\n\nSometimes love appears when you least expect it, in the most ordinary moments."
+  },
+  {
+    id: 6,
+    title: "The Last Kingdom",
+    author: "Thomas Anderson",
+    cover: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&h=600&fit=crop",
+    description: "An epic fantasy of power and destiny.",
+    genre: "Fantasy",
+    pages: 543,
+    year: 2021,
+    rating: 4.9,
+    fullDescription: "In a realm where magic is dying and kingdoms fall, one unlikely hero must unite the scattered peoples against an ancient evil. An epic fantasy saga filled with rich world-building, complex characters, and breathtaking battles.",
+    content: "Chapter 1: The Prophecy\n\nIn the twilight of the age of magic, an ancient prophecy begins to unfold...\n\nChapter 2: The Gathering Storm\n\nAcross the realm, forces both light and dark began to stir, sensing the coming change."
   }
 ];
